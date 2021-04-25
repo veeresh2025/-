@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>login</title>
+  <script type="text/javascript">
+    function validate()
+    {
+       var uname =document.getElementById("uname");
+       var pass =document.getElementById("pass");
+       
+          if(uname.value.trim()=="" || pass.value=="")
+          {
+            alert("Your not hari's Friend");
+            return false;
+          }
+          else if(uname.value=='HBDHARI' && pass.value=='HARIHBD')
+          {
+            return true;
+          }
+         
+         else
+         {
+          alert("contact vinay");
+          return false;
+         }
+
+    }
+  </script>
+</head>
+<style >
+  *{
+    background-color: orange;
+    text-align: center;
+
+    
+  }
+  body{
+    padding-top: 20vh;
+  }
+  #login-page{
+    width:250px;
+    padding: 100px 100px;
+    border-radius: 10px;
+    box-shadow:0 0 100px #000;
+    text-align: center;
+    margin: auto;
+    background-color: white;
+  }
+  .manu{
+    width: 250px;
+    height:50px; 
+    background-color: darkgray;
+    color: white;
+  }
+  .likhi{
+    width: 250px;
+    height:50px;
+    cursor: pointer;
+    background-color: orange;
+  }
+  }
+</style>
+<body>
+  <form onsubmit="return validate();"action="harihbd.html">
+  <div id="login-page">
+  <input id="uname" class="manu" type="text" name="Username" placeholder="username" ><br>
+  <br>
+  <input id="pass" class="manu" type="password" name="pasword" placeholder="password"><br>
+  <br>
+  <button class="likhi" type="submit" name="LOGIN">LOGIN</button>
+</div>
+
+</body>
+</html>
+

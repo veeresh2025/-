@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hari'sBday Gift</title>
+  <link rel="stylesheet" type="text/css" href="final3.css">
+</head>
+<body>
+<body>
+    <h2 class ="rahul">Happy Birthday Hari</h2>
+     <div class="topnav">
+       <a class="active" href="#home">Home</a>
+		  <a href="#Teja">Teja</a>
+		   <a href="#Raju">Raju</a>
+       <a href="#chimmi">chimmi</a>
+       <a href="#vijju">vijju</a>
+        <a href="#revathi">revathi</a>
+         <a href="#sampu">sampu</a>
+          <a href="#sowju">sowju</a>
+		  <a href="#sowju2">sowju2</a>
+		  <a href="#puppy">puppy</a>
+		  <a href="#preeti">preeti</a>
+		  <a href="#sandy">sandy</a>
+		  <a href="#manu">manu</a>
+		  <a href="#mouni">mouni</a>
+		  <a href="#surekha">surekha</a>
+		  <a href="#ali">ali</a>
+		  <a href="#anu">anu</a>
+		  <a href="#spoorthi">spoorthi</a>
+		  <a href="#pav">pav</a>
+		  <a href="#honey">honey</a>
+		  <a href="#shivani">shivani</a>
+		  <a href="#sumanth">sumanth</a>
+		  <a href="#Teju">Teju</a>
+		  <a href="#usha">usha</a>
+		  <a href="#wajiha">wajiha</a>
+		  <a href="#shailu">shailu</a>
+		  <a href="#priya">priya</a>
+          <marquee style="color:aliceblue;font-weight:bold;margin-left: 5px;margin-right: 5px;" onmouseover="stop();" onmouseout="start();">******** Thinking of you on our birthday and hoping that all the happiness you're givin to others will return to bless you a thousand fold.Wishing you a very happ birthday dear friend <strong id="date"></strong>********</marquee>
+ 
+
+    </div>  
+  <div id="varun">
+    <div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="hari.jpeg" style="width:100%">
+  <div class="text">HAPPY</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="hari2.jpeg" style="width:100%">
+  <div class="text">BIRTHDAY</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="hari3.jpeg" style="width:100%">
+  <div class="text">HARI</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="hari.jpeg" style="width:150%" >
+  <div class="text">HAPPY</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="hari2.jpeg" style="width:150%">
+  <div class="text">BIRTHDAY</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="hari3.jpeg" style="width:150%">
+  <div class="text">HARI</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="hari.jpeg" style="width:150%">
+  <div class="text">FROM</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="hari2.jpeg" style="width:180%">
+  <div class="text">YOUR</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="hari3.jpeg" style="width:180%">
+  <div class="text">BEST</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="hari3.jpeg" style="width:150%" >
+  <div class="text">FRIENDS</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="hari.jpeg" style="width:180%">
+  <div class="text">FOREVER</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="hari2.jpeg" style="width:150%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="hari3.jpeg" style="width:150%">
+  <div class="text">💖</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="hari.jpeg" style="width:150%">
+  <div class="text">😍😘</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+</div>
+<div id="ani">
+   <div id="teja">
+ <section id="nanda">
+        <img src="teja.jpeg" alt="profilepic">
+        <article>
+            <h2 class="karu">Teja</h2>
+            <p>
+                A¶¶!€€€€   ß'dã¥   rà  HARI 🐒🎂
+* Party up🤩🥳🎊🎉  blow up candles 🕯️cut cake 🎂 and wish all ur dreams come true🤗
+*May this day brings you lots of brightest smiles and may this year be the greatest in ur life.
+<br>
+                <span class="break"></span>
+                 *U r the cute sweet idiot 😹 friend😍🥰
+                
+               
+
+            </p>
+            <a href="#" class="manisha">- TEJA</a>
+        </article>
+    </section>
+
+  </div>
+  <div id="raju">
+  <section id="nanda">
+        <img src="raju.jpeg" alt="profilepic">
+        <article>
+            <h2 class="karu">Raju</h2>
+            <p>
+                Hari gani gurunchii cheppalente okka  honest person,andharithoo manchi dosthana chesthadu,help chese vadi gunam nachuthundhi
+YERRAPRATHUNI SRIHARI BHARDWAJ=SACHHA DOSTH.<br>
+                <span class="break"></span>
+                Wish many more happy returns of the day mama              
+            </p>
+            <a href="#" class="manisha">- Raju</a>
+          </article>
+      </section>
+    </div>
+<div id="chimmi">
+  <section id="ani">
+        <img src="chimmi.jpeg" alt="profilepic">
+        <article>
+            <h2 class="karu">Chimmi</h2>
+            <p>
+                The only day in your lyf your mother🤱🏻 smiled😊 when you👼🏻 cried😩 " that ur bday "HAPPY BIRTHDAY Hari"🎂🥳Dawath gattiga 🍾🥂Bathuku sallaga🙌🏻🕉️
+                
+
+            </p>
+            <a href="#" class="manisha">- chimmi</a>
+        </article>
+      </div>
+    </section>
+<div id="vijju">
+  <section id="ani">
+        <img src="vijju.jpeg" alt="profilepic">
+        <article>
+            <h2 class="karu">Vijju</h2>
+            <p>
+                Wish you many more happy returns of the day Hari 😍🎂🥳🎂<br>
+                <span class="break"></span>
+                >Hari  In Our class your most silent and innocent guy.<br>
+				 <span class="break"></span>
+				 >Helping nature.<br>
+				 <span class="break"></span>
+				 >Your the best brother in my life.. 😍🥳
+            </p>
+            <a href="#" class="manisha">- Vijju</a>
+        </article>
+      </div>
+    </section>
+<div id="revathi">
+  <section id="ani">
+        <img src="revathi.jpeg" alt="profilepic">
+        <article>
+            <h2 class="karu">Revathi</h2>
+            <p>
+Happy Birthday🥳🥳<br>
+                <span class="break"></span>
+               Wishing u a magical✨ birthday🎊🎉filled with wonderful surprise🎁 happy birthday hari
+            </p>
+            <a href="#" class="manisha">- Revathi</a>
+        </article>
+      </div>
+    </section>
+<div id="Sampu">
+ <section id="nanda">
+        <img src="sampu.jpeg" alt="profilepic">
+        <article>
+            <h2 class="karu">Sampu</h2>
+            <p>
+               Happiest birthday ra monkey fellow(hari)🥳🥳🎂🥳.u r the funny person I met in my life 🥰.when I saw u ! recollect like 🐑🐑(😝😝)bcz u r hair same like(🐑)👈👈,apart frm dt , u r vry good hearted person my frnd ,n finally A vry happiest birthday stupid fellow !!😍😍.<br>
+                
+
+            </p>
+            <a href="#" class="manisha">- Sampu</a>
+        </article>
+    </section>
+
+  </div>
+  <div id="sowju">
+ <section id="nanda">
+        <img src="sowju.jpeg" alt="profilepic">
+        <article>
+            <h2 class="karu">Sowju</h2>
+            <p>
+              Happy New year😂<br>
+                
+
+            </p>
+            <a href="#" class="manisha">- Sowju</a>
+        </article>
+    </section>
+
+  </div>
+<div id="sowju2">
+ <section id="nanda">
+        <img src="sowju2.jpeg" alt="profilepic">
+        <article>
+            <h2 class="karu">Sowju2</h2>
+            <p>
+               Wishing u a birthday🎊 filled with sweet moments☺️ and wonderful memoriesto cherish always! 
+Happy Birthday Hari<br>
+                
+
+            </p>
+            <a href="#" class="manisha">- Sowju2</a>
+        </article>
+    </section>
+
+  </div>
+<div id="puppy">
+ <section id="nanda">
+        <img src="puppy.jpeg" alt="profilepic">
+        <article>
+            <h2 class="karu">puppy</h2>
+            <p>
+               Today would have been the perfect occasion to write sweet words about someone "good looking.🙂.,smart.😇.,charming"😁., but I know these sweet words will not suit for u😝......so I bless 🙌🏻"May God give u d appetite to njy ur Big Day vit Pizzas🍕 n Burger's🍔"...
+Wishing you a many more happy returns of d day️<br>
+                
+
+            </p>
+            <a href="#" class="manisha">- Puppy</a>
+        </article>
+    </section>
+
+  </div>
+<div id="sandy">
+ <section id="nanda">
+        <img src="sandy.jpeg" alt="profilepic">
+        <article>
+            <h2 class="karu">sandy</h2>
+            <p>
+               Hey...idiot <br>
+                <span class="break"></span>
+It's ur birthday 🎂<br>
+                <span class="break"></span>
+We're doing nothing<br>
+                <span class="break"></span>
+Because we're socially distancing😜<br>
+                <span class="break"></span>
+Thanku,u make every one laugh with ur funny jokes<br>
+                <span class="break"></span>
+Happy Birthday ra bakki😍<br>
+                
+
+            </p>
+            <a href="#" class="manisha">- Sandy</a>
+        </article>
+    </section>
+
+  </div>
+<div id="manu">
+ <section id="nanda">
+        <img src="manu.jpeg" alt="profilepic">
+        <article>
+            <h2 class="karu">Manu</h2>
+            <p>
+             Happy' birthday to my fierce bestie!<br>
+			 <span class="break"></span>
+			 Once again"HAPPY BIRTHDAY BRODA"❤️<br>
+			 <span class="break"></span>
+			 ✓3am,2am,1am......<br>
+			 <span class="break"></span>
+			 ✓No matter what!!<br>
+			 <span class="break"></span>
+			 ✓There z only person who can hanlde all my versions""<br>
+			 <span class="break"></span>
+			 ✓And that person is uh!!<br>
+			 
+                
+
+            </p>
+            <a href="#" class="manisha">- Manu</a>
+        </article>
+    </section>
+
+  </div>
+  <div id="mouni">
+ <section id="nanda">
+        <img src="mouni.jpeg" alt="profilepic">
+        <article>
+            <h2 class="karu">Mouni</h2>
+            <p>
+               I hope your birthday is full of sunshine and rainbows and love and laughter. Wishing you a day filled vth joy and year full of happiness. Happiee Birthday!!<br>
+                
+
+            </p>
+            <a href="#" class="manisha">- Mouni</a>
+        </article>
+    </section>
+
+  </div>
+  <div id="surekha">
+ <section id="nanda">
+        <img src="surekha.jpeg" alt="profilepic">
+        <article>
+            <h2 class="karu">Surekha</h2>
+            <p>
+               You seem like a  very nice,loving and caring person..I really hope we can become good friends I wsh u a very Happy b'day hari.. god bless you alwys<br>
+                
+
+            </p>
+            <a href="#" class="manisha">- Surekha</a>
+        </article>
+    </section>
+
+  </div>  
+   <div id="ali">
+ <section id="nanda">
+        <img src="ali.jpeg" alt="profilepic">
+        <article>
+            <h2 class="karu">Ali</h2>
+            <p>
+               Happy birthday to the best pulihora Raja I’ve ever met in my life!! But always remember I’m ur dad🤙🏻🤙🏻🤙🏻 
+Baap hooo tera bsdk 😂🤙🏻🎁👍🏻<br>
+                
+
+            </p>
+            <a href="#" class="manisha">- Ali</a>
+        </article>
+    </section>
+
+  </div>  
+<div id="anu">
+ <section id="nanda">
+        <img src="anu.jpeg" alt="profilepic">
+        <article>
+            <h2 class="karu">Anu</h2>
+            <p>
+              Rad, Amazing, super awesome, gorgeous Wait.. Whom We are talking Abt?? Oh Sorry tat was me🤪But ur pretty Cool too bro😎.. wish you a Very Special bday Man##💚The most Caring person ever..💙 I wish all happiness In Uaa Life❤️<br>
+                
+
+            </p>
+            <a href="#" class="manisha">- Anu</a>
+        </article>
+    </section>
+
+  </div>  
+<div id="pav">
+ <section id="nanda">
+        <img src="pav.jpeg" alt="profilepic">
+        <article>
+            <h2 class="karu">Pav</h2>
+            <p>
+             Happy Birthday MR. BEAN 
+hope your shit brain be even worse than past and blessed with more shit
+ STAY SAFE BHARADHWAAAAJ<br>
+            </p>
+            <a href="#" class="manisha">- Pav</a>
+        </article>
+    </section>
+
+  </div>  
+<div id="shivani">
+ <section id="nanda">
+        <img src="shivani.jpeg" alt="profilepic">
+        <article>
+            <h2 class="karu">Shivani</h2>
+            <p>
+             Happy 21st  BIRTHDAY  HARI... 🥳  YOU ARE OFFICIALLY AN ADULT, NOW ATLEAST UNINSTALL KISSANIMIE, STOP WATCHING NARUTO, DEMON SLAYER.... 😂😂<br>
+            </p>
+            <a href="#" class="manisha">- Shivani</a>
+        </article>
+    </section>
+
+  </div>
+<div id="sumanth">
+ <section id="nanda">
+        <img src="sumanth.jpeg" alt="profilepic">
+        <article>
+            <h2 class="karu">Sumanth</h2>
+            <p>
+             HAPPY BIRTHDAY RA THE KING OF MIXING"PULIHORA RAJA" 😜😂AMMAILA RARAJU"LOVER BOY"🥳🥰 ALWAYS STAY COOL MAN AND KEEP ROCKING AS USUAL❤💯 DAWATH MATRAM MARCHIPOKU🤩CHEERS MAN🍻🥳🥳❤<br>
+            </p>
+            <a href="#" class="manisha">- Sumanth</a>
+        </article>
+    </section>
+
+  </div>
+<div id="teju">
+ <section id="nanda">
+        <img src="teju.jpeg" alt="profilepic">
+        <article>
+            <h2 class="karu">Teju</h2>
+            <p>
+            🎊Many more Happy😄 returns of the day HARI👶🏻‍. May you live to be so old👴🏻 that the mere sight of you horrifies😨 young children😆. I hope your birthday is as awesome🎊 as your hair👨🏻‍🦱. Live long happily<br>
+            </p>
+            <a href="#" class="manisha">- Sumanth</a>
+        </article>
+    </section>
+
+  </div>
+<div id="usha">
+ <section id="nanda">
+        <img src="usha.jpeg" alt="profilepic">
+        <article>
+            <h2 class="karu">Usha</h2>
+            <p>
+            many more happy returns of d day subbyya(cartoon lover)(lazy fellow)ur d 1 who thinks same like me,vgd in heart and too senitive i yhank god for giving u as my brother.E year anna na size avvlira may all ur dreams cm true <br>
+            </p>
+            <a href="#" class="manisha">- Usha</a>
+        </article>
+    </section>
+	<div id="wahija">
+ <section id="nanda">
+        <img src="wahija.jpeg" alt="profilepic">
+        <article>
+            <h2 class="karu">Wahija</h2>
+            <p>
+            "The only day in ur lyf mother 🤱smiled😊when u👼 cried 😩on ur birthday 'HAPPY BIRTHDAY HARI '🎂🥳 Dawath gattiga 🍾🥂Bathuga sallaga🙌🏻🕉️<br>
+            </p>
+            <a href="#" class="manisha">- Wahija</a>
+        </article>
+    </section>
+
+  </div> 
+  <div id="shailu">
+ <section id="nanda">
+        <img src="shailu.jpeg" alt="profilepic">
+        <article>
+            <h2 class="karu">Shailu</h2>
+            <p>
+            🎊Many more Happy😄 returns of the day HARI👶🏻‍. May you live to be so old👴🏻 that the mere sight of you horrifies😨 young children😆. I hope your birthday is as awesome🎊 as your hair👨🏻‍🦱. Live long happily<br>
+            </p>
+            <a href="#" class="manisha">- Shailu</a>
+        </article>
+    </section>
+
+  </div> 
+   <div id="priya">
+ <section id="nanda">
+        <img src="priya.jpeg" alt="profilepic">
+        <article>
+            <h2 class="karu">Priya</h2>
+            <p>
+           Let this day be full of joy and celebration🎉🎊.
+I wish you fabulous and outstanding birthday 
+Happy Birthday Hari<br>
+            </p>
+            <a href="#" class="manisha">- Priya</a>
+        </article>
+    </section>
+
+  </div> 
